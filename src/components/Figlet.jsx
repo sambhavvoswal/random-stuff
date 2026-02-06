@@ -1,6 +1,7 @@
 import React from 'react'
 import figlet from "figlet";
 import cryptoRandomString from 'crypto-random-string';
+import { HashRouter as Router } from 'react-router-dom'
 
 const randomString = cryptoRandomString({length: 10, type: 'ascii-printable'});
 
